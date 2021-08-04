@@ -21,6 +21,13 @@ CREATE TABLE IF NOT EXISTS `admin` (
   `password` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `admin`
+--
+
+INSERT INTO `admin` (`id`, `username`, `password`) VALUES
+(1, 'admin', '$2y$10$hOJlYGZXcFo2wmuGUROkEOdEevtoBIGR8jv2xRADVqj354bOQ7LRe');
 ```
 -- --------------------------------------------------------
 
