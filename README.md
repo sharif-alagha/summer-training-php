@@ -1,17 +1,19 @@
 # summer-training-php
 Simple web application to demonstrate CRUD operations using PHP and MySQL.
 
+```console
 --
 -- Database: `training`
 --
+```
 
 -- --------------------------------------------------------
 
+```console
 --
 -- Table structure for table `admin`
 --
 
-```console
 DROP TABLE IF EXISTS `admin`;
 CREATE TABLE IF NOT EXISTS `admin` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -22,6 +24,7 @@ CREATE TABLE IF NOT EXISTS `admin` (
 ```
 -- --------------------------------------------------------
 
+```console
 --
 -- Table structure for table `customer`
 --
@@ -37,3 +40,4 @@ CREATE TABLE IF NOT EXISTS `customer` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 COMMIT;
+```
